@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Audio } from "react-loader-spinner";
 import "./style.css";
 
 export default function WeatherSearch() {
@@ -38,8 +39,9 @@ export default function WeatherSearch() {
 
   if (loaded) {
     return (
-      <div>
+      <div className="weatherDescription">
         {form}
+
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Description: {weather.description}</li>

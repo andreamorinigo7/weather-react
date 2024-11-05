@@ -18,3 +18,21 @@ a {
   color: maroon;
   font-weight: 700;
 }
+
+.weatherDescription {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 30px;
+}
+
+.loading {
+  max-width: 100px;
+  margin: 0 auto;
+  display: block;
+}
