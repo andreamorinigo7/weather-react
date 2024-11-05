@@ -1,0 +1,20 @@
+ul {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  margin: 5px;
+  padding: 3px;
+}
+a {
+  text-decoration: none;
+  color: maroon;
+  font-weight: 700;
+}
